@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produzir Hoje, Preservar Amanhã</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <nav class="nav">
+      <span class="nav-logo">🌱 Produzir Hoje</span>
+      <ul class="nav-links">
+        <li><a href="#problema">Problema</a></li>
+        <li><a href="#persona">Persona</a></li>
+        <li><a href="#situacoes">Situações</a></li>
+        <li><a href="#solucao">Solução</a></li>
+        <li><a href="#tela">App</a></li>
+        <li><a href="#aprendizados">Aprendizados</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    </nav>
+    <div class="hero-content">
+      <p class="hero-tag">Projeto de Inovação Agrícola</p>
+      <h1 class="hero-title">Produzir Hoje,<br><span class="hero-accent">Preservar Amanhã</span></h1>
+      <p class="hero-sub">Reduzindo o desperdício de alimentos no campo por meio de tecnologia acessível ao produtor rural.</p>
+      <a href="#problema" class="btn-primary">Conhecer o projeto</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">30%</span>
+        <span class="stat-label">dos alimentos são perdidos antes de chegar ao consumidor</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">3</span>
+        <span class="stat-label">etapas críticas de perda identificadas</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">1</span>
+        <span class="stat-label">solução tecnológica para monitorar tudo</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PROBLEMA -->
+    <section id="problema" class="section section-light">
+      <div class="container">
+        <div class="section-label">O Problema</div>
+        <h2 class="section-title">Perdas invisíveis, <br>prejuízos reais</h2>
+        <div class="problem-grid">
+          <div class="problem-text">
+            <p>Produtores rurais, consumidores e toda a sociedade são afetados pelas <strong>perdas de alimentos durante o armazenamento e o transporte</strong>, o que reduz a quantidade de produtos disponíveis e aumenta o desperdício de recursos naturais.</p>
+            <p>O problema acontece silenciosamente: grãos que apodrecem no silo, produção perdida na estrada, qualidade comprometida na entrega. Cada etapa cobra seu preço.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">🌾</div>
+            <h3>Desperdício de alimentos</h3>
+            <p>Causado por perdas durante o armazenamento e o transporte da produção agrícola.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONA -->
+    <section id="persona" class="section section-dark">
+      <div class="container">
+        <div class="section-label light">A Persona</div>
+        <h2 class="section-title light">Quem vive esse problema</h2>
+        <div class="persona-card">
+          <div class="persona-avatar">JS</div>
+          <div class="persona-info">
+            <h3>João da Silva</h3>
+            <p class="persona-role">Produtor Rural · 42 anos</p>
+            <div class="persona-details">
+              <div class="persona-item">
+                <span class="pi-label">Objetivo</span>
+                <span class="pi-value">Produzir alimentos de qualidade e reduzir perdas na produção para aumentar sua renda.</span>
+              </div>
+              <div class="persona-item">
+                <span class="pi-label">Dificuldade</span>
+                <span class="pi-value">Enfrenta problemas relacionados ao armazenamento e transporte dos grãos, causando desperdícios e prejuízos financeiros.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SITUAÇÕES -->
+    <section id="situacoes" class="section section-light">
+      <div class="container">
+        <div class="section-label">Situações</div>
+        <h2 class="section-title">Onde o problema aparece</h2>
+        <div class="situacoes-grid">
+
+          <div class="situacao-card" data-index="01">
+            <div class="situacao-num">01</div>
+            <div class="situacao-icon">🏚️</div>
+            <h3>Armazenamento da Colheita</h3>
+            <div class="situacao-row">
+              <span class="sr-label">O que tentava fazer</span>
+              <p>Armazenar os grãos recém-colhidos para venda futura.</p>
+            </div>
+            <div class="situacao-row problema">
+              <span class="sr-label">Como o problema aparece</span>
+              <p>Parte dos grãos é prejudicada por umidade, pragas ou condições inadequadas de armazenamento.</p>
+            </div>
+            <div class="situacao-row consequencia">
+              <span class="sr-label">Consequência</span>
+              <p>Redução da qualidade e da quantidade da produção, gerando prejuízos financeiros.</p>
+            </div>
+          </div>
+
+          <div class="situacao-card" data-index="02">
+            <div class="situacao-num">02</div>
+            <div class="situacao-icon">🚛</div>
+            <h3>Transporte da Produção</h3>
+            <div class="situacao-row">
+              <span class="sr-label">O que tentava fazer</span>
+              <p>Transportar a produção até cooperativas e compradores.</p>
+            </div>
+            <div class="situacao-row problema">
+              <span class="sr-label">Como o problema aparece</span>
+              <p>Grãos são perdidos devido a falhas no carregamento, transporte inadequado ou estradas em más condições.</p>
+            </div>
+            <div class="situacao-row consequencia">
+              <span class="sr-label">Consequência</span>
+              <p>Menor quantidade de produto entregue e aumento dos custos.</p>
+            </div>
+          </div>
+
+          <div class="situacao-card" data-index="03">
+            <div class="situacao-num">03</div>
+            <div class="situacao-icon">💰</div>
+            <h3>Comercialização</h3>
+            <div class="situacao-row">
+              <span class="sr-label">O que tentava fazer</span>
+              <p>Vender sua produção pelo melhor preço possível.</p>
+            </div>
+            <div class="situacao-row problema">
+              <span class="sr-label">Como o problema aparece</span>
+              <p>A qualidade dos grãos foi comprometida por perdas ocorridas anteriormente.</p>
+            </div>
+            <div class="situacao-row consequencia">
+              <span class="sr-label">Consequência</span>
+              <p>Redução do valor de venda e menor lucro para o produtor.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUÇÃO -->
+    <section id="solucao" class="section section-green">
+      <div class="container">
+        <div class="section-label light">A Solução</div>
+        <h2 class="section-title light">Tecnologia a serviço do campo</h2>
+        <div class="solucao-grid">
+          <div class="solucao-desc">
+            <p>Desenvolvimento de um <strong>aplicativo para auxiliar produtores rurais</strong> no monitoramento das condições de armazenamento e transporte da produção agrícola.</p>
+            <p>A solução pretende resolver a dificuldade que muitos produtores enfrentam para identificar e prevenir perdas. O aplicativo ajuda por meio do acompanhamento das condições da produção, emissão de alertas e disponibilização de informações importantes para evitar desperdícios.</p>
+            <p>Com isso, o produtor pode agir mais rapidamente diante de situações de risco, reduzindo perdas, aumentando sua renda e contribuindo para um uso mais eficiente dos recursos naturais.</p>
+          </div>
+          <div class="solucao-benefits">
+            <div class="benefit">
+              <span class="benefit-icon">📊</span>
+              <div>
+                <strong>Monitoramento em tempo real</strong>
+                <p>Acompanhe temperatura, umidade e condições dos lotes.</p>
+              </div>
+            </div>
+            <div class="benefit">
+              <span class="benefit-icon">🔔</span>
+              <div>
+                <strong>Alertas de risco</strong>
+                <p>Notificações imediatas sobre deterioração detectada.</p>
+              </div>
+            </div>
+            <div class="benefit">
+              <span class="benefit-icon">📈</span>
+              <div>
+                <strong>Histórico e relatórios</strong>
+                <p>Dados históricos para tomada de decisão mais eficiente.</p>
+              </div>
+            </div>
+            <div class="benefit">
+              <span class="benefit-icon">🌿</span>
+              <div>
+                <strong>Sustentabilidade</strong>
+                <p>Contribui para o uso eficiente de recursos naturais.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TELA DO APP -->
+    <section id="tela" class="section section-light">
+      <div class="container">
+        <div class="section-label">O Aplicativo</div>
+        <h2 class="section-title">Tela de Monitoramento<br>de Armazenamento</h2>
+        <p class="section-sub">Permite que o produtor acompanhe as condições de armazenamento da produção e identifique possíveis riscos de perdas.</p>
+
+        <div class="app-showcase">
+          <div class="app-mockup">
+            <div class="phone-frame">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <div class="app-header">
+                  <span class="app-back">←</span>
+                  <span class="app-title-bar">Monitoramento</span>
+                  <span class="app-bell">🔔</span>
+                </div>
+
+                <div class="app-status-bar">
+                  <span class="status-dot ok"></span>
+                  <span>Sistema operando normalmente</span>
+                </div>
+
+                <div class="app-metrics">
+                  <div class="metric-card temp">
+                    <div class="metric-icon">🌡️</div>
+                    <div class="metric-val" id="temp-val">24°C</div>
+                    <div class="metric-name">Temperatura</div>
+                    <div class="metric-bar"><div class="metric-fill temp-fill" style="width:60%"></div></div>
+                  </div>
+                  <div class="metric-card humid">
+                    <div class="metric-icon">💧</div>
+                    <div class="metric-val" id="humid-val">68%</div>
+                    <div class="metric-name">Umidade</div>
+                    <div class="metric-bar"><div class="metric-fill humid-fill" style="width:68%"></div></div>
+                  </div>
+                </div>
+
+                <div class="app-alert warning">
+                  ⚠️ Lote B: umidade levemente elevada. Ventilação recomendada.
+                </div>
+
+                <div class="app-section-title">Lotes armazenados</div>
+                <div class="app-lotes">
+                  <div class="lote ok">
+                    <span class="lote-dot ok"></span>
+                    <span class="lote-name">Lote A — Soja</span>
+                    <span class="lote-status">✓ Normal</span>
+                  </div>
+                  <div class="lote warn">
+                    <span class="lote-dot warn"></span>
+                    <span class="lote-name">Lote B — Milho</span>
+                    <span class="lote-status">⚠ Atenção</span>
+                  </div>
+                  <div class="lote ok">
+                    <span class="lote-dot ok"></span>
+                    <span class="lote-name">Lote C — Trigo</span>
+                    <span class="lote-status">✓ Normal</span>
+                  </div>
+                </div>
+
+                <button class="app-btn-inspecao">+ Registrar Inspeção</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="app-features">
+            <h3>Elementos da tela</h3>
+            <ul class="features-list">
+              <li>
+                <span class="feat-icon">🌡️</span>
+                <div>
+                  <strong>Indicador de temperatura</strong>
+                  <p>Leitura em tempo real do ambiente de armazenamento.</p>
+                </div>
+              </li>
+              <li>
+                <span class="feat-icon">💧</span>
+                <div>
+                  <strong>Indicador de umidade</strong>
+                  <p>Monitoramento contínuo para prevenir deterioração.</p>
+                </div>
+              </li>
+              <li>
+                <span class="feat-icon">⚠️</span>
+                <div>
+                  <strong>Alertas de risco</strong>
+                  <p>Notificações automáticas sobre condições críticas.</p>
+                </div>
+              </li>
+              <li>
+                <span class="feat-icon">📈</span>
+                <div>
+                  <strong>Gráficos de monitoramento</strong>
+                  <p>Visualização histórica das condições dos lotes.</p>
+                </div>
+              </li>
+              <li>
+                <span class="feat-icon">📦</span>
+                <div>
+                  <strong>Lista de lotes armazenados</strong>
+                  <p>Visão geral do status de cada lote.</p>
+                </div>
+              </li>
+              <li>
+                <span class="feat-icon">📋</span>
+                <div>
+                  <strong>Histórico de ocorrências</strong>
+                  <p>Registro de eventos e inspeções anteriores.</p>
+                </div>
+              </li>
+              <li>
+                <span class="feat-icon">💡</span>
+                <div>
+                  <strong>Recomendações</strong>
+                  <p>Orientações práticas para evitar perdas.</p>
+                </div>
+              </li>
+              <li>
+                <span class="feat-icon">✏️</span>
+                <div>
+                  <strong>Registrar inspeções</strong>
+                  <p>Botão para log de vistorias realizadas pelo produtor.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APRENDIZADOS -->
+    <section id="aprendizados" class="section section-light">
+      <div class="container">
+        <div class="section-label">Aprendizados</div>
+        <h2 class="section-title">O que aprendemos<br>com os testes</h2>
+        <div class="aprendizados-grid">
+          <div class="aprendizado-card" id="ap1">
+            <div class="ap-badge">Aprendizado 1</div>
+            <div class="ap-emoji">✅</div>
+            <h3>O que funcionou bem</h3>
+            <p>Ao observar outra pessoa utilizando o protótipo, percebemos que a função de monitoramento e os alertas foram facilmente compreendidos. Os usuários entenderam rapidamente que o aplicativo tem como objetivo reduzir perdas de alimentos durante o armazenamento e o transporte da produção agrícola.</p>
+          </div>
+          <div class="aprendizado-card" id="ap2">
+            <div class="ap-badge melhoria">Aprendizado 2</div>
+            <div class="ap-emoji">🔍</div>
+            <h3>O que pode melhorar</h3>
+            <p>Também observamos que alguns usuários tiveram dúvidas sobre determinados indicadores e gráficos presentes na tela. Esse feedback mostrou a necessidade de simplificar algumas informações e adicionar explicações mais claras para facilitar o uso do aplicativo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-title">Produzir Hoje, Preservar Amanhã</p>
+      <p class="footer-sub">Projeto de inovação para redução do desperdício alimentar no agronegócio.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+              </html>
